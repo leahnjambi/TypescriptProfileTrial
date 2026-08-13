@@ -259,3 +259,109 @@
 .pro-page h1{
   padding: 20px;
 }
+.button{
+  background-color: blue;
+  color: #fff;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+}
+/* ourservice section */
+.ourService-section{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+h1{
+  padding: 20px;
+}
+
+.ourservice-container{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.service-container{
+  width: 400px;
+  height: 400px;
+  background-color: rgb(212, 219, 219);
+  display: block;
+  box-sizing: border-box;
+  border: 5px solid transparent;
+  background: 
+    linear-gradient(#111827, #111827) padding-box,
+    linear-gradient(135deg, #7c3aed, #3b82f6) border-box;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.25);
+
+  
+}
+.service-container div{
+  width: 100%;
+}
+.service-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.service-header img{
+  width: 50px;
+  height: 50px;
+}
+
+/* experience section */
+.experience{
+  display: block;
+}
+.experience img{
+  width: 50px;
+  height: 50px;
+}
+.experience-section{
+  width: 100%;
+  height: auto;
+}
+.experience-container{
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+  gap: 50px;
+}
+/* footer section */
+.footer-section{
+  align-items: center;
+  justify-content: center;
+}
+.footer-container{
+  display: flex;
+  width: 100%;
+}
+.footercontent{
+  width: 500px;
+  height: auto;
+}
+.form-container{
+  display: block;
+}
+.form{
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(20, 48, 48);
+  padding: 20px;
+}
+.form input{
+  height: 30px;
+  margin-bottom: 20px;
+}
+.form textarea{
+  height: 50px;
+
+}
