@@ -1,5 +1,6 @@
 import '../App.css'
 type Expert ={
+    id : number
     image : string;
     title : string
 };
