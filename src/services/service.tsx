@@ -1,5 +1,6 @@
 import '../App.css'
 type Service ={
+    id : number
     image : string;
     title : string;
     description : string;
