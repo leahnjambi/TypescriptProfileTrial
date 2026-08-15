@@ -16,7 +16,7 @@ function Footer(){
                             <input type="email" placeholder='email' />
                             <br/>
                             <textarea placeholder='message'></textarea>
-                            <button>Submit</button>
+                            <button className='submit-button'>Submit</button>
                         </div>
                     </form>
                 </div>
