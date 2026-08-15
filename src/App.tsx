@@ -5,6 +5,7 @@ import ProjectPage from './projects/project.tsx'
 import OurServices from './services/ourService.tsx'
 import OurExpertSection from './experience/ourExperienceSection.tsx'
 import Footer from './footer/footersection.tsx'
+import Mysocial from './socials/social-section.tsx'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <OurServices />
         <OurExpertSection />
         <Footer />
+        <Mysocial/>
       </section>
     </>
   )
